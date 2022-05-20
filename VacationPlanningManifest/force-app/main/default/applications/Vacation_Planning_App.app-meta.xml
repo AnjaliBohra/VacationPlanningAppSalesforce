@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#10C3E7</headerColor>
+        <logo>pexelsrebecagonalves1770310</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>An Application for planning a vacation.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Vacation Planning App</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Vacation__c</tabs>
+    <tabs>Vacation_Planning_and_Expense__c</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>Extentia_SIM__Map_Plotter</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Vacation_Planning_App_UtilityBar</utilityBar>
+</CustomApplication>

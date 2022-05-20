@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vacation_Task__c</fullName>
+    <description>can select multiple task as per user requirement and a automatic task for email reminder will be set prior to vacation start date.</description>
+    <externalId>false</externalId>
+    <label>Vacation Tasks</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Keep ID/Document</fullName>
+                <default>false</default>
+                <label>Keep ID/Document</label>
+            </value>
+            <value>
+                <fullName>Pack Seasonal Clothing</fullName>
+                <default>false</default>
+                <label>Pack Seasonal Clothing</label>
+            </value>
+            <value>
+                <fullName>Flight Booking</fullName>
+                <default>false</default>
+                <label>Flight Booking</label>
+            </value>
+            <value>
+                <fullName>Hotel Booking</fullName>
+                <default>false</default>
+                <label>Hotel Booking</label>
+            </value>
+            <value>
+                <fullName>Car Rental Booking</fullName>
+                <default>false</default>
+                <label>Car Rental Booking</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>9</visibleLines>
+</CustomField>

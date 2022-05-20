@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VacayStartDatesSoonerThanEndDate</fullName>
+    <active>true</active>
+    <description>Vacation end date &gt; vacay end date</description>
+    <errorConditionFormula>Vacation_Start_Date__c  &gt;  Vacation_End_Date__c</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Vacation End Date cannot be sooner than Vacation Start Date</errorMessage>
+</ValidationRule>

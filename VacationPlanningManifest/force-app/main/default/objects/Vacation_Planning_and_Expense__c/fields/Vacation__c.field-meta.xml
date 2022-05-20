@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vacation__c</fullName>
+    <description>Master Detail Relationship for pointing to a particular vacation.</description>
+    <externalId>false</externalId>
+    <label>Vacation</label>
+    <referenceTo>Vacation__c</referenceTo>
+    <relationshipLabel>Vacation Planning and Expenses</relationshipLabel>
+    <relationshipName>Vacation_Planning_and_Expenses</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
